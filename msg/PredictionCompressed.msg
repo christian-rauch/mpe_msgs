@@ -1,6 +1,7 @@
 Header                      header
 
 # Inputs
+sensor_msgs/CompressedImage colour              # colour image (h x w x 3)
 sensor_msgs/CompressedImage depth               # depth image (h x w)
 
 # Outputs
