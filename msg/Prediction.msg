@@ -10,6 +10,7 @@ sensor_msgs/Image       segment_scores      # score per segment pixels (h x w x 
 sensor_msgs/Image       keypoints           # heatmaps for keypoint locations (h x w x Nlinks channels)
 sensor_msgs/Image       keypoints_id        # keypoint ID with highest score (h x w, id: 0...Nkeypoints)
 sensor_msgs/Image       keypoints_score     # maximum score of keypoint, excluding background (h x w)
+sensor_msgs/Image       visibility          # keypoint visibility
 sensor_msgs/Image       contours            # score of background-foreground contour (h x w)
 sensor_msgs/JointState  joints              # joint state
 sensor_msgs/Image       joint_distribution  # score of discrete joint states (Njoints x Nclasses)
